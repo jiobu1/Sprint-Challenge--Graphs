@@ -68,8 +68,8 @@ def dft_recursive(room, visited=None):
 
     return path
 
-traversal_path = dft_recursive(player.current_room)
 
+traversal_path = dft_recursive(player.current_room)
 
 # TRAVERSAL TEST - DO NOT MODIFY
 visited_rooms = set()
